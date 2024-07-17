@@ -20,7 +20,7 @@ Look at this output:
 
 ```
 $ ls /usr/
-bin        lib        libexec    local      sbin       share
+bin        lib        libexec
 ```
 
 Look at this code:
@@ -114,6 +114,13 @@ for readability.
 ### Notes
 
 Markdown has no specialized syntax for notes.
+
+### Footnotes
+
+Extended Markdown supports footnotes[^1].
+
+[^1]: The footnote will mostly be displayed in the bottom
+no matter where you define it, hence _the name_.
 
 ### Warnings
 

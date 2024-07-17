@@ -29,7 +29,7 @@ Code blocks
 Look at this output::
 
    $ ls /usr/
-   bin        lib        libexec    local      sbin       share
+   bin        lib        libexec
 
 Look at this code:
 
@@ -151,6 +151,13 @@ Notes
    This is the text of a note.
 
 .. note: GitHub's RST rendering doesn't make this stand out much.
+
+Footnotes
+=========
+
+An example of footnote [1]_.
+
+.. [1] It's similar to hyperlink syntax.
 
 Warnings
 ========

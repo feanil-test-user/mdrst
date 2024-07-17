@@ -81,7 +81,7 @@ Basic Stuff
 
           ```
           $ ls /usr/
-          bin        lib        libexec    local      sbin       share
+          bin        lib        libexec
           ```
 
           Look at this code:
@@ -99,7 +99,7 @@ Basic Stuff
           Look at this output::
 
              $ ls /usr/
-             bin        lib        libexec    local      sbin       share
+             bin        lib        libexec
 
           Look at this code:
 
@@ -364,6 +364,24 @@ Notes etc
      -
 
           GitHub's RST rendering doesn't make this stand out much.
+
+   * - Footnotes
+     - ::
+
+          Extended Markdown supports footnotes[^1].
+
+          [^1]: The footnote will mostly be displayed in the bottom
+          no matter where you define it, hence _the name_.
+
+     - ::
+
+          An example of footnote [1]_.
+
+          .. [1] It's similar to hyperlink syntax.
+
+     -
+
+
 
    * - Warnings
      - ::
